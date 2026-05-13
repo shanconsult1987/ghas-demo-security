@@ -1,0 +1,15 @@
+{
+  "name": "ghas-demo-security",
+  "version": "1.0.0",
+  "description": "GHAS + Dependabot Demo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "axios": "0.21.0",
+    "minimist": "0.0.8"
+  }
+}
