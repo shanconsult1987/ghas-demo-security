@@ -6,6 +6,16 @@ updates:
     schedule:
       interval: "daily"
 
+    groups:
+      node-dependencies:
+        patterns:
+          -"*"
+
+    ignore:
+      - dependency-name: "lodash"
+        versions:
+          - "4.17.1"
+
     open-pull-requests-limit: 5
 
     commit-message:
